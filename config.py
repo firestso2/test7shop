@@ -2,7 +2,7 @@ BOT_TOKEN = "8678526177:AAHM9G6EDACoDcbuJ5A3ATYynS4lz-G_UdI"
 CRYPTO_PAY_TOKEN = "YOUR_CRYPTOPAY_TOKEN"
 CRYPTO_PAY_API_URL = "https://pay.crypt.bot/api"
 
-ADMIN_IDS = [123456789]  # Вставь свой Telegram ID
+ADMIN_IDS = [8416449434]  # Вставь свой Telegram ID
 
 DB_PATH = "vorache.db"
 PRODUCTS_FILE = "products.json"
