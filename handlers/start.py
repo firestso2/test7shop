@@ -6,7 +6,6 @@ from database import get_user, register_user, get_setting
 from keyboards import main_menu_kb
 from config import WELCOME_PHOTO, SHOP_NAME
 from utils import log_event
-from aiogram.types import FSInputFile
 
 router = Router()
 
@@ -16,7 +15,7 @@ async def send_main_menu(message: Message):
     text = f"🏪 <b>{SHOP_NAME}</b>\n\n{welcome_text}"
     if WELCOME_PHOTO:
         await message.answer_photo(
-            photo=FSInputFile(WELCOME_PHOTO),
+            photo=WELCOME_PHOTO,
             caption=text,
             reply_markup=main_menu_kb(),
             parse_mode="HTML"
