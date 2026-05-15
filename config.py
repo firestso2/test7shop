@@ -14,7 +14,7 @@ ORDER_START_NUM = 237
 
 SUPPORT_CONTACT = "@vorache777"
 SHOP_NAME = "Vоrache's Store"
-WELCOME_PHOTO = "AgACAgEAAxkBAAAN9agdQbblESUaBNHbGCQZwCbN2usAAtcLaxsSsUBEolwqRc9V9iEBAAMCAANtAAM7BA"
+WELCOME_PHOTO = "AgACAgEAAxkBAAN9agdQbblESUaBNHbGCQQZwCbN2usAAtcLaxsSsUBEolwqRc9V9iEBAAMCAAN5AAM7BA"
 
 # Товары с очередью верификации (не банки)
 QUEUE_ITEMS_CATS = ["crypto", "bookmakers"]
