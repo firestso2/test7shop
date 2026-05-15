@@ -15,7 +15,6 @@ async def send_main_menu(message: Message):
     welcome_text = await get_setting("welcome_text") or "Добро пожаловать! Выберите раздел:"
     text = f"🏪 <b>{SHOP_NAME}</b>\n\n{welcome_text}"
     if WELCOME_PHOTO:
-        ****
         await message.answer_photo(
             photo=FSInputFile(WELCOME_PHOTO),
             caption=text,
