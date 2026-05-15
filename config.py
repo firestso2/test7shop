@@ -15,7 +15,6 @@ ORDER_START_NUM = 237
 SUPPORT_CONTACT = "@vorache777"
 SHOP_NAME = "Vоrache's Store"
 WELCOME_PHOTO = UDBY3950.png
-+
 
 # Товары с очередью верификации (не банки)
 QUEUE_ITEMS_CATS = ["crypto", "bookmakers"]
