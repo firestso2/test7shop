@@ -64,6 +64,8 @@ class AdminStates(StatesGroup):
     waiting_coupon_uid      = State()
     waiting_coupon_pct      = State()
     waiting_coupon_uses     = State()
+    waiting_maintenance_text = State()
+
 
 
 async def is_admin(uid): return uid in await get_all_admin_ids()
